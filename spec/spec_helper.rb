@@ -7,10 +7,9 @@ ENV['RACK_ENV'] = 'test'
 require 'capybara/rspec'
 require 'capybara'
 require 'capybara/dsl'
-require 'app_controller'
-require 'web_helpers'
+require './app_controller.rb'
 
-# Capybara.app =
+Capybara.app = BookmarkApp
 
 #add simple cov setup to rspec setup file=>>
 require 'simplecov'
