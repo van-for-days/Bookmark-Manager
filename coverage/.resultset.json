@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/cpcwood/OneDrive/Documents/Coding/Projects/bookmark_manager/spec/features/homepage_spec.rb": [
+      "/Users/macbook/Projects/bookmark_manager/spec/features/homepage_spec.rb": [
         1,
         1,
         1,
@@ -9,7 +9,7 @@
         null,
         null
       ],
-      "/Users/cpcwood/OneDrive/Documents/Coding/Projects/bookmark_manager/spec/features/view_bookmark_spec.rb": [
+      "/Users/macbook/Projects/bookmark_manager/spec/features/view_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -17,7 +17,7 @@
         null,
         null
       ],
-      "/Users/cpcwood/OneDrive/Documents/Coding/Projects/bookmark_manager/spec/unit/bookmark_spec.rb": [
+      "/Users/macbook/Projects/bookmark_manager/spec/unit/bookmark_spec.rb": [
         1,
         null,
         1,
@@ -31,6 +31,6 @@
         null
       ]
     },
-    "timestamp": 1578937422
+    "timestamp": 1578939924
   }
 }

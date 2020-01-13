@@ -5,4 +5,4 @@
 
 CREATE TABLE bookmarks(bookmark_number INTEGER PRIMARY KEY, url VARCHAR NOT NULL);
 
-INSERT INTO bookmarks(bookmark_number, url) VALUES (1, 'http://www.test-url.com');
+INSERT INTO book_mark(bookmark_number, url) VALUES (1, 'http://www.test-url.com');

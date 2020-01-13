@@ -5,7 +5,7 @@ class Bookmarks
   def self.bookmarks_list
     begin
       con = PG.connect :dbname => 'bookmark_manager', :user => ENV['USER']
-      rs = con.exec "SELECT * FROM bookmarks"
+      rs = con.exec "SELECT * FROM book_mark"
       list = []
       rs.each{|row| list << row['url']}
     rescue PG::Error => e
