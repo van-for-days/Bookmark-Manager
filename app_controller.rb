@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'bookmarks'
+require './lib/bookmarks.rb'
 
 class BookmarkApp < Sinatra::Base
   enable :sessions
@@ -7,8 +7,7 @@ class BookmarkApp < Sinatra::Base
   get '/' do
 
     @list = Bookmarks.bookmarks_list
-
-    erb :homepage 
+    erb :homepage
   end
 
   run! if $0 == __FILE__
