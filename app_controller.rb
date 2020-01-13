@@ -4,7 +4,7 @@ class BookmarkApp < Sinatra::Base
   enable :sessions
 
   get '/' do
-    erb :homepage
+    erb :homepage 
   end
 
   run! if $0 == __FILE__

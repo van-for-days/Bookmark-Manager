@@ -1,7 +1,15 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/cpcwood/OneDrive/Documents/Coding/Projects/bookmark_manager/spec/features/homepage_spec.rb": [
+      "/Users/macbook/Projects/bookmark_manager/spec/features/homepage_spec.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/macbook/Projects/bookmark_manager/spec/features/view_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -10,6 +18,6 @@
         null
       ]
     },
-    "timestamp": 1578927891
+    "timestamp": 1578928725
   }
 }
